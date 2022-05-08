@@ -42,6 +42,10 @@ ui["akinsho/bufferline.nvim"] = {
 	tag = "*",
 	event = "BufRead",
 	config = conf.nvim_bufferline,
+	requires = {
+		{ "kyazdani42/nvim-web-devicons" }, 
+		{ "moll/vim-bbye" },
+	},
 }
 ui["petertriho/nvim-scrollbar"] = {
 	opt = true,
